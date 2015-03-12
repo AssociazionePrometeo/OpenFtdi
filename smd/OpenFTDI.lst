@@ -1,0 +1,37 @@
+eeschema (2013-may-18)-stable  >> Creation date: sab 25 gen 2014 14:44:28 CET
+#Cmp ( order = Reference ) (con SubCmp)
+| C1         0.1uF                           Loc /(X=49,530 mm, Y=55,880 mm);             ;             
+| C2         0.1uF                           Loc /(X=99,060 mm, Y=92,710 mm);             ;             
+| CP1        10uF                            Loc /(X=58,420 mm, Y=55,880 mm);             ;             
+| D1         LED                             Loc /(X=176,530 mm, Y=68,580 mm);             ;             
+| D2         LED                             Loc /(X=182,880 mm, Y=68,580 mm);             ;             
+| J1         USB_MICRO                       Loc /(X=38,100 mm, Y=64,770 mm);             ;             
+| P1         CONN_7                          Loc /(X=99,060 mm, Y=146,050 mm);             ;             
+| R1         270                             Loc /(X=176,530 mm, Y=57,150 mm);             ;             
+| R2         270                             Loc /(X=182,880 mm, Y=57,150 mm);             ;             
+| SW1        SWITCH_pad                      Loc /(X=63,500 mm, Y=140,970 mm);             ;             
+| U1         FT232RL                         Loc /(X=135,890 mm, Y=74,930 mm);             ;             
+#End Cmp
+
+#Cmp ( ordine = Valore ) (con SubCmp)
+| 0.1uF        C1        Loc /(X=49,530 mm, Y=55,880 mm);             ;             
+| 0.1uF        C2        Loc /(X=99,060 mm, Y=92,710 mm);             ;             
+| 10uF         CP1       Loc /(X=58,420 mm, Y=55,880 mm);             ;             
+| LED          D1        Loc /(X=176,530 mm, Y=68,580 mm);             ;             
+| LED          D2        Loc /(X=182,880 mm, Y=68,580 mm);             ;             
+| USB_MICRO    J1        Loc /(X=38,100 mm, Y=64,770 mm);             ;             
+| CONN_7       P1        Loc /(X=99,060 mm, Y=146,050 mm);             ;             
+| 270          R1        Loc /(X=176,530 mm, Y=57,150 mm);             ;             
+| 270          R2        Loc /(X=182,880 mm, Y=57,150 mm);             ;             
+| SWITCH_pad   SW1       Loc /(X=63,500 mm, Y=140,970 mm);             ;             
+| FT232RL      U1        Loc /(X=135,890 mm, Y=74,930 mm);             ;             
+#Fine Cmp
+
+#Etichette globali, gerarchiche e piedini del foglio ( ordine = Numero foglio ) conteggio = 0
+#Fine etichette
+
+#Etichette globali, gerarchiche e piedini del foglio ( ordine = Alfabetico) conteggio = 0
+
+#Fine etichette
+
+#Fine Lista

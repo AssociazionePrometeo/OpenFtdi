@@ -1,0 +1,9 @@
+"Id";"Riferimento";"Contenitore";"Quantità";"Valore";"Produttore";
+1;"J1";"USB_B";1;"USB_2";;;
+2;"U1";"SSOP28";1;"FT232RL";;;
+3;"C1,C2";"SM0805";2;"0.1uF";;;
+4;"CP1";"SM0805";1;"10uF";;;
+5;"R1,R2";"SM0805";2;"1K";;;
+6;"D1,D2";"LED-5MM";2;"LED";;;
+7;"SW1";"JUMP_2_WITH_PASTE_2";1;"SWITCH_INV";;;
+8;"P1";"CONN_7_100MIL_OVAL";1;"CONN_7";;;

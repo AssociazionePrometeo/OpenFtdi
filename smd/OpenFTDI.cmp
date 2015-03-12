@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = gio 24 gen 2013 00:27:21 CET
+
+BeginCmp
+TimeStamp = /506A14A2;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /506A15E1;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /506A14D2;
+Reference = CP1;
+ValeurCmp = 10uF;
+IdModule  = c_tant_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /506C86AA;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /506C86DE;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51006D88;
+Reference = J1;
+ValeurCmp = USB_MICRO;
+IdModule  = conn_usb_B_micro_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /5075EA9B;
+Reference = P1;
+ValeurCmp = CONN_7;
+IdModule  = pin_strip_7;
+EndCmp
+
+BeginCmp
+TimeStamp = /506C8713;
+Reference = R1;
+ValeurCmp = 270;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /506C871A;
+Reference = R2;
+ValeurCmp = 270;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /506A16B9;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = JUMP_2_WITH_PASTE_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /506A1194;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = SSOP28;
+EndCmp
+
+EndListe

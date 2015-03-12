@@ -1,0 +1,192 @@
+# EESchema Netlist Version 1.1 created  Fri 25 Jan 2013 16:00:40 CET
+(
+ ( /51029E01 $noname  SW1 SWITCH_PAD {Lib=SWITCH_PAD}
+  (    1 /POWER )
+  (    2 +5V )
+  (    3 +3.3V )
+ )
+ ( /5075EA9B $noname  P1 CONN_7 {Lib=CONN_7}
+  (    1 GND )
+  (    2 /POWER )
+  (    3 /RST )
+  (    4 /CST )
+  (    5 /DTR )
+  (    6 /RXD )
+  (    7 /TXD )
+ )
+ ( /506C871A $noname  R2 270 {Lib=R}
+  (    1 +5V )
+  (    2 N-000006 )
+ )
+ ( /506C8713 $noname  R1 270 {Lib=R}
+  (    1 +5V )
+  (    2 N-000005 )
+ )
+ ( /506C86DE $noname  D2 LED {Lib=LED}
+  (    1 N-000006 )
+  (    2 /RXLED )
+ )
+ ( /506C86AA $noname  D1 LED {Lib=LED}
+  (    1 N-000005 )
+  (    2 /TXLED )
+ )
+ ( /506A15E1 $noname  C2 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
+ )
+ ( /506A14D2 $noname  CP1 10uF {Lib=CP1}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /506A14A2 $noname  C1 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 +5V )
+ )
+ ( /506A12F2 $noname  J1 USB_2 {Lib=USB_2}
+  (    1 +5V )
+  (    2 /D- )
+  (    3 /D+ )
+  (    4 GND )
+ )
+ ( /506A1194 $noname  U1 FT232RL {Lib=FT232RL}
+  (    1 /TXD )
+  (    2 /DTR )
+  (    3 ? )
+  (    4 /POWER )
+  (    5 /RXD )
+  (    6 ? )
+  (    7 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 /CST )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 /D+ )
+  (   16 /D- )
+  (   17 +3.3V )
+  (   18 GND )
+  (   19 /RST )
+  (   20 +5V )
+  (   21 GND )
+  (   22 /RXLED )
+  (   23 /TXLED )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component CP1
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+5V" "+5V"
+ R2 1
+ R1 1
+ CP1 1
+ U1 20
+ SW1 2
+ J1 1
+ C1 2
+Net 4 "GND" "GND"
+ U1 26
+ C1 1
+ J1 4
+ U1 7
+ CP1 2
+ C2 1
+ U1 21
+ U1 18
+ P1 1
+ U1 25
+Net 5 "" ""
+ R1 2
+ D1 1
+Net 6 "" ""
+ D2 1
+ R2 2
+Net 9 "/RXLED" "RXLED"
+ D2 2
+ U1 22
+Net 11 "/TXLED" "TXLED"
+ D1 2
+ U1 23
+Net 14 "/RST" "RST"
+ P1 3
+ U1 19
+Net 15 "/D+" "D+"
+ U1 15
+ J1 3
+Net 16 "/D-" "D-"
+ J1 2
+ U1 16
+Net 17 "/DTR" "DTR"
+ P1 5
+ U1 2
+Net 19 "/POWER" "POWER"
+ P1 2
+ SW1 1
+ U1 4
+Net 21 "+3.3V" "+3.3V"
+ SW1 3
+ C2 2
+ U1 17
+Net 22 "/RXD" "RXD"
+ U1 5
+ P1 6
+Net 23 "/TXD" "TXD"
+ U1 1
+ P1 7
+Net 24 "/CST" "CST"
+ P1 4
+ U1 11
+}
+#End
